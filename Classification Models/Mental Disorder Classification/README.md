@@ -78,13 +78,3 @@ A summary of the results:
     pip install -r requirements.txt
     ```
 
-4. Run the Jupyter Notebook or Python scripts to train and test the models:
-    - Jupyter Notebook:
-        ```bash
-        jupyter notebook notebooks/Mental_Disorder_Classification.ipynb
-        ```
-    - Python Script:
-        ```bash
-        python scripts/classify_mental_disorder.py
-        ```
-
