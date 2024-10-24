@@ -47,20 +47,6 @@ The models are evaluated based on:
 - **Recall:** How well the classifier identifies true positive cases.
 - **F1 Score:** The balance between precision and recall.
 
-## Results
-
-The project shows that the **Random Forest Classifier** performed the best, achieving an accuracy of around 88%. Other models like Logistic Regression and Support Vector Machines also showed promising results but with slightly lower accuracy.
-
-A summary of the results:
-
-| Model                | Accuracy | Precision | Recall | F1 Score |
-|----------------------|----------|-----------|--------|----------|
-| Logistic Regression   | 85%      | 0.84      | 0.83   | 0.83     |
-| Decision Tree         | 80%      | 0.79      | 0.78   | 0.78     |
-| Random Forest         | 88%      | 0.87      | 0.86   | 0.86     |
-| SVM                   | 84%      | 0.83      | 0.82   | 0.82     |
-| KNN                   | 82%      | 0.81      | 0.80   | 0.80     |
-
 ## How to Run the Project
 
 1. Clone the repository:
@@ -78,13 +64,4 @@ A summary of the results:
     pip install -r requirements.txt
     ```
 
-4. Run the Jupyter Notebook or Python scripts to train and test the models:
-    - Jupyter Notebook:
-        ```bash
-        jupyter notebook notebooks/Mental_Disorder_Classification.ipynb
-        ```
-    - Python Script:
-        ```bash
-        python scripts/classify_mental_disorder.py
-        ```
 
